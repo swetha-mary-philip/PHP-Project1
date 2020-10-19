@@ -1,0 +1,107 @@
+  .indexpage{
+    background-image:url(images/literature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    background-position: center;
+    width: 100%;
+  }
+
+.successpage{
+    background-image:url(images/success1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-position: center;
+    width: 100%;
+  }
+
+body{
+    background-color: #f1f0ec;
+    font-family:cursive;
+}
+.logo-img{
+    object-fit:contain;
+    width:auto;
+    height:50px;
+    border-radius:50%;
+  }
+
+.btnaddtocart{
+    background-color:brown;
+    color: white;
+}
+
+.btnaddtocart:hover{
+    border: 1px solid brown;
+    color: brown;
+    font-weight: bold;
+    background-color:lightgreen;
+    
+}
+.checkout-tab{
+    color:brown;
+}
+
+.explore{
+    color:white;
+    line-height: 2em;
+    margin-top:250px;
+    min-width:200px;
+    min-height: 50px;
+    background-color:brown;
+    border: 3px solid white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size: 20px;
+  }
+
+.explore:hover{
+    color: white;
+    background-color: green;
+}
+
+  .list-img{
+    object-fit: cover;
+      height:200px;
+  }
+
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.visa{background-image:url(http://i.imgur.com/lXzJ1eB.png);}
+.mastercard{background-image:url(http://i.imgur.com/SJbRQF7.png);}
+
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
